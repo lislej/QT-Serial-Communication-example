@@ -1,3 +1,10 @@
+# Update of KROIA/QT-Serial-Communication-exampe
+***
+##  Modified to include serial port attributes in drop-downs and a QTextEdit box to show the I/O on the port.
+
+<img src="https://github.com/lislej/QT-Serial-Communication-example/blob/develop/images/SerialCommViewer.png" alt="snapshot" style="height: 100px; width:100px;"/>
+
+
 # Installation
 ***
 ## QT-Software
