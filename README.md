@@ -26,3 +26,8 @@ A demo sketch from Adafruit has been added to the **Device-code** folder called 
 # Arduino Code
 * Compile in Arduino IDE
 * Load compiled code to Arduino Nano
+***
+
+## Arduino Nano with BNO055
+
+   <img src="https://github.com/lislej/QT-Serial-Communication-example/blob/develop/images/arduino-nano-with-BNO055.PNG" alt="snapshot" style="height: 900px; width:400px;"/>
