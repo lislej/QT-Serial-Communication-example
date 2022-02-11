@@ -1,27 +1,28 @@
+# Update of KROIA/QT-Serial-Communication-example
+***
+##  Modified to include serial port attributes in drop-downs and a QTextEdit box to show the I/O on the selected port.
+
+<img src="https://github.com/lislej/QT-Serial-Communication-example/blob/develop/images/SerialCommViewer.png" alt="snapshot" style="height: 500px; width:400px;"/>
+
+
 # Installation
 ***
 ## QT-Software
-1. Download the repository.
-2. Extract the files somewhere but let the file structure the same.
-3. Open QT-Creator and open the project by browsering to the extractet .pro file.
-4. I usually compile with **MinGW** so check if you have that or try other compilers.
-5. Compile the code.
-6. The example uses only qDebug() outputs for displaying any data  
-so let the console in QT-Creator open while the program is running.
+1. clone the git repository.
+2. Open the project in Qt Creator.
+3. Compile with toolkit of choice.
+4. This example uses qDebug() outputs to the console and x, y, and z coordinates to the QEditText box.
+
 ***
 ## Device-Software
-* I used a Arduino to communicate to the GUI.  
-The code for that is in the **Device-code** folder
+* An Arduino Nano v3 has been added to this example which is wired to a BNO055 sensor from Adafruit offering 9DOF.
+A demo sketch from Adafruit has been added to the **Device-code** folder called sketch_feb04a.ino.
 ***
 
 ## Building
-# Standalone? 
-* **YES** For more Information click [here](https://wiki.qt.io/Build_Standalone_Qt_Application_for_Windows).
-* **NO** When you don't need a standalone version putt all needed **.dll** files to the **.exe**.  
-In the **Compiled** folder, you can find all needed **.dll** files for the program. You can find these in your QT install folder.  
-C:\Qt\5.10.1\mingw53_32\bin  
-It depends on your installation and compiler.  
-The folder **platforms** is allso needed.  
-The **.dll** in there you can find  
-E:\Qt\5.10.1\mingw53_32\plugins\platforms  
-
+# Qt Code 
+*  Compile in Qt Creator 
+*  For more Information click [here](https://wiki.qt.io/Build_Standalone_Qt_Application_for_Windows).
+# Arduino Code
+* Compile in Arduino IDE
+* Load compiled code to Arduino Nano
